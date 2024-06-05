@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+:root {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section {
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Arrange articles vertically */
+    justify-content: center; /* Center articles vertically */
+    align-items: center; /* Center articles horizontally */
+}
+
+#spring {
+    background-image: url('Media/spring.jpg');
+}
+
+#summer {
+    background-image: url('Media/summer.jpg');
+}
+
+#autumn {
+    background-image: url('Media/autumn.jpg');
+}
+
+#winter {
+    background-image: url('Media/winter.jpg');
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+ 
+h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.4;
+}
+
+article {
+    background-color: rgba(0,0,0,0.5);
+    color : #fff;
+    max-width: 800px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+}
